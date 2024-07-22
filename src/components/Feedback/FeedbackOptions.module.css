@@ -1,0 +1,22 @@
+.button {
+    width: 70px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+  
+.button:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
